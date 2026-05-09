@@ -1,0 +1,28 @@
+NADS Animator Guide (OAR Templates)
+
+NADS ships OAR submod templates but no bundled HKX dodge clips.
+Default out-of-box behavior is native controller-driven movement plus vanilla invisibility FX.
+
+Direction code mapping (iNADSDodgeDirection):
+1 = Forward
+2 = Right
+3 = Backward
+4 = Left
+5 = RightForward
+6 = RightBackward
+7 = LeftBackward
+8 = LeftForward
+
+Recommended shout-slot filenames to override per template folder:
+- MT_Shout_Exhale.hkx
+- MT_Shout_Exhale_Medium.hkx
+- MT_Shout_Exhale_Long.hkx
+- 1HM_Shout_Exhale.HKX
+- 1HM_Shout_Exhale_Medium.hkx
+- 1HM_Shout_Exhale_Long.hkx
+- Sneak1HM_Shout_Exhale.hkx
+- Sneak1HM_Shout_Exhale_Medium.hkx
+- Sneak1HM_Shout_Exhale_Long.hkx
+
+Authoring rule:
+- Avoid MCO_/DMCO_ annotation events and root-motion displacement in bundled clips.

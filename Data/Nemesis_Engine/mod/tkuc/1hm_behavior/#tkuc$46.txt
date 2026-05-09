@@ -1,0 +1,10 @@
+		<hkobject name="#tkuc$46" class="hkbEventDrivenModifier" signature="0x7ed3f44e">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">1</hkparam>
+			<hkparam name="name">tkdodge_EventDrivenModifier3</hkparam>
+			<hkparam name="enable">true</hkparam>
+			<hkparam name="modifier">#tkuc$45</hkparam>
+			<hkparam name="activateEventId">$eventID[TKDodgeRotation]$</hkparam>
+			<hkparam name="deactivateEventId">$eventID[TKDR_DodgeEnd]$</hkparam>
+			<hkparam name="activeByDefault">false</hkparam>
+		</hkobject>

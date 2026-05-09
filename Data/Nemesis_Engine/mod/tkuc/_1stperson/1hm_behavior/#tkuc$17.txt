@@ -1,0 +1,14 @@
+		<hkobject name="#tkuc$17" class="BSTimerModifier" signature="0x531f3292">
+			<hkparam name="variableBindingSet">#tkuc$16</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">tkdodge_iframe_TimerModifier</hkparam>
+			<hkparam name="enable">true</hkparam>
+			<hkparam name="alarmTimeSeconds">0.000000</hkparam>
+			<hkparam name="alarmEvent">
+				<hkobject>
+					<hkparam name="id">$eventID[TKDR_IframeEnd]$</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="resetAlarm">false</hkparam>
+		</hkobject>

@@ -1,0 +1,12 @@
+		<hkobject name="#tkuc$55" class="hkbStateMachineEventPropertyArray" signature="0xb07b4388">
+			<hkparam name="events" numelements="2">
+				<hkobject>
+					<hkparam name="id">$eventID[TKDR_DodgeStart]$</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="id">$eventID[Collision_Cancel]$</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>

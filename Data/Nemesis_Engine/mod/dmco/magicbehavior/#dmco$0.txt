@@ -1,0 +1,6 @@
+		<hkobject name="#dmco$0" class="hkbBehaviorReferenceGenerator" signature="0xfcb5423">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">DMCO_BRG Dodge</hkparam>
+			<hkparam name="behaviorName">Behaviors\DMCO.hkx</hkparam>
+		</hkobject>

@@ -1,0 +1,42 @@
+{
+    "name":  "NADS TP Dodge Left-Backward (Template)",
+    "description":  "Template profile for left-backward dodge animation overrides",
+    "priority":  940117,
+    "interruptible":  true,
+    "conditions":  [
+                       {
+                           "condition":  "IsActorBase",
+                           "requiredVersion":  "1.0.0.0",
+                           "Actor base":  {
+                                              "pluginName":  "Skyrim.esm",
+                                              "formID":  "7"
+                                          }
+                       },
+                       {
+                           "condition":  "CompareValues",
+                           "requiredVersion":  "1.0.0.0",
+                           "Comparison":  "Greater",
+                           "Value A":  {
+                                           "source":  "GraphVariable",
+                                           "name":  "iNADSDodgeTier"
+                                       },
+                           "Value B":  {
+                                           "source":  "Literal",
+                                           "int":  0
+                                       }
+                       },
+                       {
+                           "condition":  "CompareValues",
+                           "requiredVersion":  "1.0.0.0",
+                           "Comparison":  "Equals",
+                           "Value A":  {
+                                           "source":  "GraphVariable",
+                                           "name":  "iNADSDodgeDirection"
+                                       },
+                           "Value B":  {
+                                           "source":  "Literal",
+                                           "int":  7
+                                       }
+                       }
+                   ]
+}

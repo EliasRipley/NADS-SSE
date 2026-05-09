@@ -1,0 +1,29 @@
+{
+    "name":  "NADS TP Dodge Frozen",
+    "description":  "Built-in neutral frozen dodge fallback profile (minimal pose change / no root-motion dependency)",
+    "priority":  940110,
+    "interruptible":  true,
+    "conditions":  [
+                       {
+                           "condition":  "IsActorBase",
+                           "requiredVersion":  "1.0.0.0",
+                           "Actor base":  {
+                                              "pluginName":  "Skyrim.esm",
+                                              "formID":  "7"
+                                          }
+                       },
+                       {
+                           "condition":  "CompareValues",
+                           "requiredVersion":  "1.0.0.0",
+                           "Comparison":  "Greater",
+                           "Value A":  {
+                                           "source":  "GraphVariable",
+                                           "name":  "iNADSDodgeTier"
+                                       },
+                           "Value B":  {
+                                           "source":  "Literal",
+                                           "int":  0
+                                       }
+                       }
+                   ]
+}

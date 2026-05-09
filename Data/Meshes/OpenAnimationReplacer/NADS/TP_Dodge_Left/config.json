@@ -1,0 +1,42 @@
+{
+    "name":  "NADS TP Dodge Left (Template)",
+    "description":  "Template profile for left dodge animation overrides",
+    "priority":  940114,
+    "interruptible":  true,
+    "conditions":  [
+                       {
+                           "condition":  "IsActorBase",
+                           "requiredVersion":  "1.0.0.0",
+                           "Actor base":  {
+                                              "pluginName":  "Skyrim.esm",
+                                              "formID":  "7"
+                                          }
+                       },
+                       {
+                           "condition":  "CompareValues",
+                           "requiredVersion":  "1.0.0.0",
+                           "Comparison":  "Greater",
+                           "Value A":  {
+                                           "source":  "GraphVariable",
+                                           "name":  "iNADSDodgeTier"
+                                       },
+                           "Value B":  {
+                                           "source":  "Literal",
+                                           "int":  0
+                                       }
+                       },
+                       {
+                           "condition":  "CompareValues",
+                           "requiredVersion":  "1.0.0.0",
+                           "Comparison":  "Equals",
+                           "Value A":  {
+                                           "source":  "GraphVariable",
+                                           "name":  "iNADSDodgeDirection"
+                                       },
+                           "Value B":  {
+                                           "source":  "Literal",
+                                           "int":  4
+                                       }
+                       }
+                   ]
+}

@@ -1,0 +1,12 @@
+		<hkobject name="#dmco$3" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">DMCO_Bld EndAnimation</hkparam>
+			<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_BLEND</hkparam>
+			<hkparam name="eventMode">EVENT_MODE_IGNORE_FROM_GENERATOR</hkparam>
+			<hkparam name="duration">0.300000</hkparam>
+			<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+			<hkparam name="flags">FLAG_IGNORE_TO_WORLD_FROM_MODEL|FLAG_IGNORE_FROM_WORLD_FROM_MODEL</hkparam>
+			<hkparam name="endMode">END_MODE_NONE</hkparam>
+			<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+		</hkobject>

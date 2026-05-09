@@ -1,0 +1,11 @@
+{
+  "modName": "Dodge_MCO-DXP",
+  "displayName": "Dodge MCO-DXP",
+  "cursorFillMode": "topToBottom",
+  "content": [
+    {
+      "text": "Locked by NADS.",
+      "type": "header"
+    }
+  ]
+}

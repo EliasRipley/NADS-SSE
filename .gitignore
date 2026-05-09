@@ -1,0 +1,25 @@
+# Build artifacts
+/build/
+/out/
+/Dist/
+/Output/
+/tmp/
+/DMCO for NADS/
+
+# IDE / generated user files
+/.vs/
+*.user
+*.suo
+
+# Local CMake user preset
+CMakeUserPresets.json
+
+# Optional debug symbols (not needed for mod users)
+Data/DodgeBlinkShout.esp
+Data/Scripts/*.pex
+Data/SKSE/Plugins/*.dll
+Data/SKSE/Plugins/*.pdb
+Data/SKSE/Plugins/_dynamic/
+
+# Legacy DAR output path (NADS uses OAR-only layout)
+Data/Meshes/Actors/

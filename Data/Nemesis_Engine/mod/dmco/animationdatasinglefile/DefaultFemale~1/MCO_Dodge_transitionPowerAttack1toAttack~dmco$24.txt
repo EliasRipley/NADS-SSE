@@ -1,0 +1,6 @@
+MCO_Dodge_transitionPowerAttack1toAttack
+dmco$24
+1
+0
+0
+0

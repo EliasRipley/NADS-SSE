@@ -1,0 +1,8 @@
+		<hkobject name="#dmco$5" class="hkbStateMachineEventPropertyArray" signature="0xb07b4388">
+			<hkparam name="events" numelements="1">
+				<hkobject>
+					<hkparam name="id">$eventID[PIE]$</hkparam>
+					<hkparam name="payload">#dmco$6</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>

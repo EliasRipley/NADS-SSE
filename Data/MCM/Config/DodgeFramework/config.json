@@ -1,0 +1,12 @@
+{
+  "modName": "DodgeFramework",
+  "displayName": "Dodge Framework",
+  "minMcmVersion": 9,
+  "cursorFillMode": "topToBottom",
+  "content": [
+    {
+      "text": "Locked by NADS.",
+      "type": "header"
+    }
+  ]
+}

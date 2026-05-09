@@ -1,0 +1,6 @@
+MCO_Dodge_Attack1
+dmco$18
+1
+0
+0
+0

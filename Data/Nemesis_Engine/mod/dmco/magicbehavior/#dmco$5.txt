@@ -1,0 +1,20 @@
+		<hkobject name="#dmco$5" class="hkbStateMachineEventPropertyArray" signature="0xb07b4388">
+			<hkparam name="events" numelements="4">
+				<hkobject>
+					<hkparam name="id">56</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="id">86</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="id">$eventID[InterruptCast]$</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="id">$eventID[PIE]$</hkparam>
+					<hkparam name="payload">#dmco$4</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
