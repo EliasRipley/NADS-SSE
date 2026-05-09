@@ -15,7 +15,6 @@
 CMakeUserPresets.json
 
 # Optional debug symbols (not needed for mod users)
-Data/DodgeBlinkShout.esp
 Data/Scripts/*.pex
 Data/SKSE/Plugins/*.dll
 Data/SKSE/Plugins/*.pdb
